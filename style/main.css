@@ -338,29 +338,41 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-0 .tile-inner {
-    background: #eee4da;
+    background: #dfe1df;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-1 .tile-inner {
-    background: #eaeaea;
+    background: #36769b;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
+    background: #369b3d;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-4 .tile-inner {
+  .tile.tile-42 .tile-inner {
     background: #ede0c8;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+  .tile.tile-3 .tile-inner {
+    color: #f9f6f2;
+    background: #99522e; }
+  .tile.tile-4 .tile-inner {
+    color: #f9f6f2;
+    background: #8a2e99; }
+  .tile.tile-5 .tile-inner {
+    color: #f9f6f2;
+    background: #992e6b; }
+  .tile.tile-6 .tile-inner {
+    color: #f9f6f2;
+    background: #992e2e; }
+  .tile.tile-7 .tile-inner {
+    color: #f9f6f2;
+    background: #5b2e99; }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
-    background: #f2b179; }
-  .tile.tile-16 .tile-inner {
+    background: #99942e; }
+  .tile.tile-9 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
-  .tile.tile-32 .tile-inner {
+    background: #610909; }
+  .tile.tile-10 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f; }
-  .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+    background: #00e4ff; }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     background: #edcf72;
@@ -427,11 +439,11 @@ hr {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
-    background: #3c3a32;
-    font-size: 30px; }
+    background: #000000;
+    font-size: 22px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        font-size: 15px; } }
 
 @-webkit-keyframes appear {
   0% {
